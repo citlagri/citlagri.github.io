@@ -1,0 +1,13 @@
+<div class="row">
+                <div class="col-sm-5 col-10" style="align-items: center;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 id="card-title" id="style">WEBSERVER</h2>
+                            <img class="card-img img-fluid" style="width: 75%" src="/images/Webserver (1).png" >
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            
+
