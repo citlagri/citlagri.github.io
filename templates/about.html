@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
     <link rel="stylesheet" href='/style.css'>
+    
     <title>About Me</title>
 
 </head> 
@@ -35,21 +36,21 @@
             <div class="collapse navbar-collapse justify-content-end align-self-center" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="/index.html" class="nav-link active" data-bss-hover-animate="pulse" >Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="/templates/about.html" class="nav-link" data-bss-hover-animate="pulse">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#coding" class="nav-link">Coding</a>
+                        <a href="/templates/coding.html" class="nav-link" data-bss-hover-animate="pulse">Coding</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#coding" class="nav-link">Creative</a>
+                        <a href="/templates/creative.html" class="nav-link" data-bss-hover-animate="pulse">Creative</a>
                     </li>
                    
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="/templates/contact.html" class="nav-link" data-bss-hover-animate="pulse" data>Contact</a>
                     </li> 
                     
                 </ul>
@@ -62,33 +63,34 @@
 
             <div class="row justify-content-center text-center">
                 <div class="col">
-                    <h1 class="heading" style="padding-top: 110px; padding-bottom: 10px;"> Hi, I'm Citlalli!</h1> 
+                    <h1 class="heading" style="padding-top: 110px; padding-bottom: 9px;"> Hi, I'm Citlalli!</h1> 
                 </div>
             </div>
 
             <div class="row justify-content-center align-items-center" style="padding-top: 0px;">
                 <div class="col-md-5 justify-content-center text-center" id="biophoto" style="padding-top: 10px;" >
-                    <img class="img-fluid" style="width: 85%;" src="/images/aboutme2.png" alt="a picture of Citlalli" />
+                    <img id="myImg" class="img-fluid" style="width: 85%;" src="/images/aboutme2.png" alt="a picture of Citlalli" />
+                   <!-- <button onclick="changeImg('myImg').src='/images/mustache.png'" id="myButton">do not touch!</button>-->
                 </div>
                 <div class="col-xs-9 col-md-6" style="padding-top: 15px;">
                     <h2 style = "font: 40px;">
                         I'm a creator based in NYC
                     </h2>
                     <p>
-                        As a current senior at Columbia University I major in Computer Science and Film.
-                        Despite these two different subjects, I hope to integrate both of my interests in the projects I choose to take on.
+                        As a current senior at Columbia University I'm majoring in Computer Science and Film.
+                        Despite these two different subjects, I hope to find way integrate both of my interests in the projects I choose to take on.
                     </p>
                     <p>
-                        I decided to create this website to showcase my interests and some of the projects that I've had to pleasure to work on.</li>
-                        Being originally from Seattle I love the water and enjoy taking the ferry.  
+                        I decided to create this website as a litle side project to learn new skills and have fun deciding color schemes. In the end I showcased my interests and
+                        some of the projects that I've had to pleasure to work on. 
                     </p>
                 </div>
             </div>
 
-            <div class="row" style="padding-top:25px;">
+            <div class="row" style="padding-top:20px;">
                 <div class="col text-center">
                     <p id="style">
-                        idk what i should say but i feel like i need more 
+                        Originally from Seattle, I love the water and enjoy taking the ferry. Now in NYC I find time to run in Riverside Park along the Hudson.
                     </p>
 
                 </div>
@@ -120,19 +122,19 @@
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        I wanted something that showed change.
+                        Like Hannah Montana I wanted to pursue the best of both worlds. After taking my first CS course I realized I liked taking the time to figure out a problem and solving it. Additionally, as a visual learner I’ve always found film interesting and wanted to learn how to compose moving visuals.  
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Another question
+                      What project should I check out?
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        idk
+                        For computer science I would say to look at the music database I created. We developed a miniature database that allowed users to look up artists, their songs and if they’ve won any awards for said songs. From my visual arts, check out “Found in Translation”. It’s a mini web series I created with my friend that follows the woes of a college girl’s ability to read the mind of her crushes!
                     </div>
                   </div>
                 </div>
@@ -164,28 +166,38 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-2">
-                    <button type="button" class="btn" id="icon-style" >
-                        <span>
-                             <i class="bi bi-linkedin"></i>
-                        </span>
-                    </button>
+                    <a href="https://www.linkedin.com/in/citlalli-grijalva-b85326184/" data-bss-hover-animate="pulse" data>
+                        <button type="button" class="btn" id="icon-style" >
+                            <span>
+                                <i class="bi bi-linkedin"></i>
+                            </span>
+                        </button>
+                    
+                    </a>
                    
                 </div>
                 
                 <div class="col-2">
-                    <button type="button" class="btn" id="icon-style" >
-                        <span>
-                             <i class="bi bi-youtube"></i>
-                        </span>
-                    </button> 
+                    <a href="https://www.youtube.com/channel/UCku24-m4w6GhR5-s40xrokg"  data-bss-hover-animate="pulse" data>
+                        <button type="button" class="btn" id="icon-style" >
+                            <span>
+                                <i class="bi bi-youtube"></i>
+                            </span>
+                        </button>
+                    
+                    </a>
                     
                 </div>
+                
                 <div class="col-2">
-                    <button type="button" class="btn" id="icon-style" >
-                        <span>
-                             <i class="bi bi-github"></i>
-                        </span>
-                    </button>
+                    <a href="https://github.com/citlagri" data-bss-hover-animate="pulse" data>
+                        <button type="button" class="btn" id="icon-style" >
+                            <span>
+                                <i class="bi bi-github"></i>
+                            </span>
+                        </button>
+                    
+                    </a>
                     
                 </div>
             </div>

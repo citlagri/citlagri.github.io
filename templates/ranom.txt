@@ -1,0 +1,27 @@
+const myImg = document.getElementById("myImg");
+const myButton = document.getElementById("myButton");
+
+myButton.addEventListener("click", function() {
+  if (myImg.src.endsWith("/images/aboutme2.png")) {
+    myImg.src = "/images/mustache.png";
+  } 
+  else {
+    myImg.src = "/images/aboutme2.png";
+  }
+});
+
+
+ console.log(image.src)
+
+ unction chageImg(){
+  document.getElementById('myImage')
+  .src="images/aboutme2.png"
+  
+}
+   
+function afterr(){
+  document.getElementById('myImage')
+  .src="img/photo2.jpg";
+  document.getElementById('message')
+  .innerHTML="Bye! GeeksforGeeks people";
+}
